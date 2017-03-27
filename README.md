@@ -183,6 +183,88 @@ Sign | Meaning
 * ### for/in
 
 
-## Properties
-
 ## Methods
+
+* ### prompt
+  Opens a dialogue box. Call either *.toUpperCase()* or *.toLowerCase()* on your prompt to ensure that the input you get from the user is capitalized the way you expect.
+   ```javascript
+    prompt("How old are you?").toUpperCase();
+   ```
+  
+* ### confirm
+  Opens a confirmation box the user has to check. </br>
+   ```javascript
+    confirm("You are leaving this page");
+   ```
+  
+* ### console.log
+  Will print out the value inside the parenthesis in the console.
+   ```javascript
+    console.log(["Print this out");
+   ```
+   
+* ### set
+   ```javascript
+      var bob = new Object();
+      bob.age = 17;
+      bob.setAge = function (newAge){
+         bob.age = newAge;
+      };
+
+      bob.getYearOfBirth = function () {
+        return 2014 - bob.age;
+      };
+      console.log(bob.getYearOfBirth());
+   ```
+
+   
+   
+## Properties
+* ### .length
+  Calculates the length of a string. </br>
+  `"I am Flora".length;` </br>
+  Result: 10
+
+* ### .substring
+  Chop up a string into the number of characters needed. </br>
+  `"January".substring(0,3);` </br>
+  Result: Jan
+
+* ### variable
+  Gives a name to a certain value. Variable with global scope: defined outside of a function. Variable with local scope: defined in a function (won’t work outside of it)</br>
+   ```javascript
+      var myAge = 24;
+      //The value can be changed if we write this later on in the code//
+      myAge = 30;
+   ```
+   ```javascript
+      var myCountry = “Belgium”;
+      myCountry.length = 7
+      myCountry.substring (0, 3)
+      // Result: Bel //
+   ```
+
+* ### function
+  Block of code designed to perform a particular task after being called or invoked. The main advantage of using functions is defining one code to use it many times. The definition of a function is **ended with a semicolon**. </br>
+   ```javascript
+      var multiply = function(x, y) {
+        return x * y;
+      }
+      multiply(2, 3);
+      // Result: 6 //
+   ```
+   ```javascript
+      var foodDemand = function (food) {
+	       console.log(“I want to eat” + “ “ + food)
+       };
+       foodDemand(“chocolate”);
+       // result: I want to eat chocolate //
+   ```
+   ```javascript
+      var orangeCost = function(cost) {
+	      var val = cost * 5;
+        console.log(val);
+      };
+      orangeCost(5);
+       // result: 25 //
+   ```
