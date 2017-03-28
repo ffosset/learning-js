@@ -39,7 +39,16 @@
     me.name = "Flora";
     me.age = 24;
    ```
-
+  #### Custom Constructor
+  Permits to set the properties for an object right when it is created. </br>
+    ```javascript
+	function Person(name,age) {
+		this.name = name;
+  		this.age = age;
+	}
+	var bob = new Person("Bob Smith", 30);
+	var susan = new Person("Susan Jordan", 25);
+   ```
 
 ## Comparison operators
 Sign | Meaning 
@@ -217,7 +226,9 @@ Sign | Meaning
       console.log(bob.getYearOfBirth());
    ```
 
-   
+* ### this
+  </br>
+
    
 ## Properties
 * ### .length
@@ -268,3 +279,4 @@ Sign | Meaning
       orangeCost(5);
        // result: 25 //
    ```
+
