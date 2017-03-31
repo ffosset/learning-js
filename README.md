@@ -1,4 +1,4 @@
-# Learning JavaScript with Codeacademy
+# Learning JavaScript Basics
 
 ## Values
 * ### String
@@ -49,7 +49,10 @@
 	var bob = new Person("Bob Smith", 30);
 	var susan = new Person("Susan Jordan", 25);
    ```
-
+   Properties are like variables that belong to an object, and are used to hold pieces of information. Properties can be accessed in two ways: </br>
+  **Dot notation** with `ObjectName.PropertyName` </br>
+  **Bracket notation** with `ObjectName["PropertyName"]`
+   
 ## Comparison operators
 Sign | Meaning 
 --- | ---
@@ -189,7 +192,22 @@ Sign | Meaning
       console.log(languages[i]);
     }
    ```
-* ### for/in
+* ### arrays of objects with loop
+    ```javascript
+    function Person (name, age) {
+    	this.name = name;
+    	this.age = age;
+    }
+    var family = new Array(); 
+    family[0] = new Person ("alice", 40);
+    family[1] = new Person ("bob", 42);
+    family[2] = new Person ("michelle", 8);
+    family[3] = new Person ("timmy", 6);
+    
+    for (var i = 0; i < family.length; i++) {
+    	console.log(family[i].name);
+    }
+   ```
 
 
 ## Methods
