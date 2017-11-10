@@ -4,9 +4,10 @@
 * ### String
   Sequence of characters, always between brackets </br>
   `"this is a phrase", "32", "flora"`
+  Concatenating strings: `"this is a phrase, 32, flora"`
   
 * ### Number
-  Never between brackets, can be floating or integer </br>
+  Never between brackets, can be floating or integer (without decimals) </br>
   `2, 43, 40192`
   
 * ### Boolean
