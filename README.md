@@ -3,7 +3,7 @@
 ## Values
 * ### String
   Sequence of characters, always between brackets </br>
-  `"this is a phrase", "32", "flora"`
+  `"this is a phrase", "32", "flora"` <br>
   Concatenating strings: `"this is a phrase, 32, flora"`
   
 * ### Number
@@ -13,6 +13,23 @@
 * ### Boolean
   Only has two values </br>
   `true, false`
+  
+* ### Null
+  Is assigned nothing as a value </br>
+  ```javascript
+  var x = null;
+  ```
+  
+* ### Undefined
+  Is not assigned any value </br>
+  ```javascript
+  var x;
+  ```
+
+* ### NaN
+  Not a number, returned indicating an error with number operations </br>
+  `"hello"/5` <br>
+   Returns `NaN`
 
 * ### Array
   Always between square brackets, can be heterogeneous (include different types of values), multi-dimensional (arrays inside arrays) and jagged (arrays with different values inside arrays) </br>
@@ -22,7 +39,7 @@
     var list = ["Brussels", "Madrid", "Lisbon"];
     list[2];
    ```
-   Result `Lisbon`
+   Returns `Lisbon`
   
 * ### Object
   Collection of information (**keys** and **values**) between curly braces
@@ -57,7 +74,7 @@
 ## Comparison operators
 Sign | Meaning 
 --- | ---
-**===** | equal to
+**===** | equal to (strict equality has to be the same type and value to return true)
 **!==** | not equal to
 **>** | greater than
 **<** | less than
