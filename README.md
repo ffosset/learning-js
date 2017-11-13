@@ -127,6 +127,9 @@ Sign | Meaning
    ```
     `!true = false and !false = true`
  
+## Truth tables
+Used to represent the result of all the possible combinations of inputs in a logical expression. A represents the boolean value on the left-side of the expression and B represents the boolean value on the right-side of the expression.
+<img width="260" alt="screen shot 2017-11-13 at 17 50 53" src="https://user-images.githubusercontent.com/22743273/32737792-514b1204-c89b-11e7-85f9-3f13810d5e07.png">
 
 ## Conditional Statements
 * ### if
