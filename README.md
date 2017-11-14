@@ -27,9 +27,18 @@
   ```
 
 * ### NaN
-  Not a number, returned indicating an error with number operations </br>
+  It means "Not a Number" and is returned indicating an error with number operations </br>
   `"hello"/5` <br>
    Returns `NaN`
+   
+* ### Falsy values
+	- the Boolean value false
+	- the null type
+	- the undefined type
+	- the number 0
+	- the empty string `""`
+	- the value NaN <br>
+If the value is not in the list of falsly values, then it's truthy!
 
 * ### Array
   Always between square brackets, can be heterogeneous (include different types of values), multi-dimensional (arrays inside arrays) and jagged (arrays with different values inside arrays) </br>
