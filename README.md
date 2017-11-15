@@ -91,6 +91,21 @@ Sign | Meaning
 **<=** | less or equal
 **%** | modulus
 
+## Ternary operator
+A conditional statement can be replaced by a ternary operator to code faster. It works like this: conditional ? (if condition is true) : (if condition is false) <br>
+
+    var isGoing = true;
+    var color;
+    if (isGoing) {
+    color = "green";
+    } else {
+    color = "red";
+    }
+    
+    // replaced by
+    
+    var isGoing = true;
+    var color = isGoing ? "green" : "red";
 
 ## Logical operators
 * ### && (and)
@@ -159,7 +174,7 @@ Used to represent the result of all the possible combinations of inputs in a log
     }
    ```
 * ### switch
-  Used instead of the if / else if / else statement
+  If you find yourself repeating else if statements in your code, where each condition is based on the same value, then it might be time to use a switch statement.
     ```javascript
     var color = prompt("What's your favorite color?");
     switch(color) {
