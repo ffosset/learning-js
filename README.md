@@ -174,7 +174,8 @@ Used to represent the result of all the possible combinations of inputs in a log
     }
    ```
 * ### switch
-  If you find yourself repeating else if statements in your code, where each condition is based on the same value, then it might be time to use a switch statement.
+  If you find yourself repeating else if statements in your code, where each condition is based on the same value, then it might be time to use a switch statement. You can add a default case to a switch statement and it will be executed when none of the values match the value of the switch expression.
+  
     ```javascript
     var color = prompt("What's your favorite color?");
     switch(color) {
