@@ -293,6 +293,14 @@ Sign | Meaning
 * ### this
   </br>
 
+  
+* ### push
+  Add elements to the end of an array. Also, the `push()` method returns the length of the array after an element has been added. </br>
+  `myArray.push("addedElement");` </br>
+
+* ### pop
+  Remove elements from the end of an array. Also, the `pop()` returns the element that has been removed in case you need to use it. </br>
+  `myArray.pop();` </br>
    
 ## Properties
 * ### .length
