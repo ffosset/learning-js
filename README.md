@@ -301,6 +301,10 @@ Sign | Meaning
 * ### pop
   Remove elements from the end of an array. Also, the `pop()` returns the element that has been removed in case you need to use it. </br>
   `myArray.pop();` </br>
+  
+* ### ()splice
+ Add and remove elements from anywhere within an array. The first argument represents the starting index from where you want to change the array, the second argument represents the numbers of elements you want to remove, and the remaining arguments represent the elements you want to add. </br>
+  `donuts.splice(1, 1, "chocolate cruller", "creme de leche");` </br>
    
 ## Properties
 * ### .length
